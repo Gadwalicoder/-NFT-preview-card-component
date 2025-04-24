@@ -1,7 +1,6 @@
 body{
     margin: 0;
-    font-family: lexend, sans-serif;
-   
+    font-family: lexend, sans-serif; 
 }
 
 a{
@@ -43,7 +42,6 @@ main{
 .card img{
         width: 64px;
         height: 40px;
-
 }
 
 .card h2{
@@ -74,7 +72,6 @@ main{
     border-top-right-radius: 8px; */
 }
 
-
 .green-card{
     background-color: #016972;
 }
@@ -84,16 +81,15 @@ main{
     /* border-radius: 0px 0px 10px 10px; */
     /* border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-     */
-     
+     */   
 }
+
 
 @media (max-width: 850px){
     .card-container {
         flex-direction: column;
         max-width: 400px;
-       
-        
+         
     } 
       .card{
         width: unset;
